@@ -16,11 +16,16 @@ Athlete
 
 ---
 
-If you're an **inquiring employer**, I'd like to point you to my [LinkedIn Profile](https://www.linkedin.com/in/josiahplett/) and [Game Portfolio](https://www.plett.dev/games).
+If you're an **inquiring employer**, I'd like to point you to my [<img src="https://user-images.githubusercontent.com/65507438/182967307-197669fc-b621-44a4-88d6-fb4cb874d8bd.png" alt="LI" height="16px"/> LinkedIn Profile](https://www.linkedin.com/in/josiahplett/) and [Game Portfolio](https://www.plett.dev/games).
 
 If you want to **learn about me**, I'd like to point you to my [Personal Website](https://www.plett.dev/home) and [YouTube Channel](https://www.youtube.com/josiahplett)
 
 ---
+
+![image](https://user-images.githubusercontent.com/65507438/182967004-e3d42d27-b375-45f3-825f-37d79c24d748.png)
+![image](https://user-images.githubusercontent.com/65507438/182967307-197669fc-b621-44a4-88d6-fb4cb874d8bd.png)
+
+
 
 
 <!-- This is how you make comments -->
