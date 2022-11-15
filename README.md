@@ -9,7 +9,7 @@ Computer Science Student <strong>|</strong>
 <a href="https://youtu.be/euEsvBd13A8?t=190"><img src="https://user-images.githubusercontent.com/65507438/182959287-128f5ea5-680c-4540-bead-c68790775357.png" alt="GWR" height="16px"/></a> 
 <a href="https://www.plett.dev/features">World Record Breaker</a> <strong>|</strong> 
 <a href="https://www.plett.dev/photography"><img src="https://user-images.githubusercontent.com/65507438/182958267-e5bca3b2-4f28-47b1-bc44-6fce2a82b61f.png" alt="Camera" height="16px"/></a> 
-<a href="https://www.plett.dev/photography">Photographer</a> <strong>|</strong> 
+<a href="https://www.plett.dev/More/photography">Photographer</a> <strong>|</strong> 
 <img src="https://user-images.githubusercontent.com/65507438/182959868-c79db324-d184-497b-813c-94f0b68b00bd.png" alt="Badminton" height="16px"/> 
 Athlete
 </p>
