@@ -22,6 +22,16 @@ If you want to **learn about me**, I'd like to point you to my <a href="https://
 
 If you're looking for something else, perhaps it's available on my <a href="[https://www.plett.dev](https://linktr.ee/josiahplett)"><img src="https://user-images.githubusercontent.com/65507438/182969828-c7d4e9bf-b957-4751-bb91-0b5bd1bb93c6.png" alt="Profile" height="16px"/></a> [Linktree](https://linktr.ee/josiahplett).
 
+---
 
+## Some Game Projects
+##### (because they're cool)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65507438/182959868-c79db324-d184-497b-813c-94f0b68b00bd.png" alt="Badminton" height="16px"/> 
+Athlete
+</p>
+
+---
 
 <!-- Not sure if I'll add more to this. This seems quite apt. -->
