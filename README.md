@@ -32,9 +32,9 @@ If you're looking for something else, perhaps it's available on my <a href="[htt
 <a href="https://analysisboard.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/chess_analysis_showcase.gif" alt="Chess Analysis Board Showcase Video" height="140px"/></a>
 <a href="https://www.coolmathgames.com/0-split-second"><img src="https://github.com/plettj/SplitSecond/blob/main/youtube/split_second_showcase_2.gif" alt="Split Second Showcase Video" height="140px"/></a>
 <a href="https://pixelexplorer.surge.sh/"><img src="https://github.com/plettj/Pixel-Explorer/blob/master/display_assets/pixel_explorer_showcase.gif" alt="Pixel Explorer Showcase Video" height="140px"/></a>
-<a href="https://devpost.com/software/split-second"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/split_second_v1_showcase.gif" alt="Split Second V1 Showcase Video" height="140px"/></a>
 <a href="https://plettdev.itch.io/flippyfloor"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/flippy_floor_showcase.gif" alt="Flippy Floor Showcase Video" height="140px"/></a>
 <a href="https://spacegolf.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/space_golf_showcase.gif" alt="Space Golf Showcase Video" height="140px"/></a>
+<a href="https://devpost.com/software/split-second"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/split_second_v1_showcase.gif" alt="Split Second V1 Showcase Video" height="140px"/></a>
 </p>
 
 <!-- Not sure if I'll add more to this. This seems quite apt. -->
