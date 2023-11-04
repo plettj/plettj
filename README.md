@@ -24,7 +24,7 @@ If you're looking for something else, perhaps it's available on my <a href="[htt
 
 ---
 
-## Some Game Projects
+### Some Game Projects
 ##### (because they're cool)
 
 <p float="left" align="center">
@@ -36,6 +36,5 @@ If you're looking for something else, perhaps it's available on my <a href="[htt
 <a href="https://spacegolf.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/space_golf_showcase.mp4" alt="Space Golf Showcase Video" height="140px"/></a>
 <a href="https://devpost.com/software/split-second"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/split_second_v1_showcase.mp4" alt="Split Second v1 Showcase Video" height="140px"/></a>
 </p>
----
 
 <!-- Not sure if I'll add more to this. This seems quite apt. -->
