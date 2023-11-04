@@ -25,7 +25,7 @@ If you're looking for something else, perhaps it's available on my <a href="[htt
 ---
 
 ### Some Game Projects
-<p color="#777">*because they're cool*</p>
+<p style="color:#777777;"><em>because they're cool</em></p>
 
 <p float="left" align="center">
 <a href="https://itch.io/jam/uw-game-dev-club-fall-2032-game-jam/rate/2340160"><img src="https://github.com/plettj/lofi_ghost/blob/main/display_files/lofi_ghost_showcase.gif" alt="Lo-fi Ghost Showcase Video" height="140px"/></a>
