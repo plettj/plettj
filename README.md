@@ -8,11 +8,11 @@
 
 ---
 
-[plett.dev](https://plett.dev/) is the centerpoint of my online presence.
+[plett.fun](https://plett.fun/) is where you can play 18 of my games.
 
-[plett.fun](https://plett.fun/) is where you can play 17 of my games.
+[plett.dev](https://plett.dev/) is my personal website.
 
-I'm currently CTO at [Portage Labs](https://www.portagelabs.io/) and searching for my 6th internship. Contact me on [Linkedin](https://www.linkedin.com/in/josiahplett/) or at _jlplett_ at _uwaterloo_ dot _ca_ if you're interested in knowing more.
+I'm currently CTO at [Portage Labs](https://www.portagelabs.io/), full-stack at [Maxima AI](https://www.maximahq.com/), and searching for my 6th internship in Fall 2026. Contact me on [Linkedin](https://www.linkedin.com/in/josiahplett/) or at _jlplett_ at _uwaterloo_ dot _ca_ if you'd like to reach out.
 
 ---
 
