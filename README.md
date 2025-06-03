@@ -12,7 +12,7 @@
 
 [plett.dev](https://plett.dev/) is my personal website.
 
-I'm currently CTO at [Portage Labs](https://www.portagelabs.io/), full-stack at [Maxima AI](https://www.maximahq.com/), and searching for my 6th internship in Fall 2026. Contact me on [Linkedin](https://www.linkedin.com/in/josiahplett/) or at _jlplett_ at _uwaterloo_ dot _ca_ if you'd like to reach out.
+I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/). Contact me on [Linkedin](https://www.linkedin.com/in/josiahplett/) or at _jlplett_ at _uwaterloo_ dot _ca_ if you'd like to reach out.
 
 ---
 
