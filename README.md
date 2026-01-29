@@ -44,6 +44,7 @@ Click on the GIFs to go to their websites.
 <a href="https://pixelexplorer.surge.sh/"><img src="https://github.com/plettj/Pixel-Explorer/blob/master/display_assets/pixel_explorer_showcase.gif" alt="Pixel Explorer Showcase Video" height="140px"/></a>
 <a href="https://plettdev.itch.io/flippyfloor"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/flippy_floor_showcase.gif" alt="Flippy Floor Showcase Video" height="140px"/></a>
 <a href="https://spacegolf.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/space_golf_showcase.gif" alt="Space Golf Showcase Video" height="140px"/></a>
+<a href="https://github.com/plettj/annts"><img src="https://github.com/plettj/annts/blob/main/display_files/annts_showcase.gif" alt="ANNTS Showcase Video" height="140px"/></a>
 <a href="https://devpost.com/software/split-second"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/split_second_v1_showcase.gif" alt="Split Second V1 Showcase Video" height="140px"/></a>
 <a href="https://analysisboard.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/chess_analysis_showcase.gif" alt="Chess Analysis Board Showcase Video" height="140px"/></a>
 </p>
