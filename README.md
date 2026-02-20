@@ -25,11 +25,34 @@ ffmpeg -i EXAMPLE_showcase.mp4 -i palette.png -filter_complex "fps=20,scale=-1:2
 
 ---
 
-[plett.fun](https://plett.fun/) is where you can play 18 of my games.
-
 [plett.dev](https://plett.dev/) is my personal website.
 
-I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/). Contact me on [Linkedin](https://www.linkedin.com/in/josiahplett/) or at _jlplett_ at _uwaterloo_ dot _ca_ if you'd like to reach out.
+[plett.fun](https://plett.fun/) is where you can play 18 of my games.
+
+<div style="
+  width: 100%;
+  background-color: #141436;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  box-sizing: border-box;
+">
+
+<!-- stats:start -->
+
+Total commits: <span style="color: #45def3;">#,###</span>
+
+Repos: <span style="color: #45def3;">##</span> owned (<span style="color: #45def3;">###</span> contributed to)
+
+PRs: <span style="color: #45def3;">###</span> created, <span style="color: #45def3;">###</span> reviewed
+
+<!-- stats:end -->
+
+</div>
+
+I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/).
 
 ---
 
