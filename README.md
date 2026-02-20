@@ -1,25 +1,9 @@
-<!--
-# HOW TO SCREEN-RECORD THE VIDEOS
-
-On Windows, search for Snipping Tool. Hit the video icon, and don't forgot to save when you're done!
-
-# HOW TO MAKE `.gif` FILES OUT OF `.mp4` FILES
-
-1. Use an online `ffmpeg` emulator like [this one](https://ffmpeg.wide.video/), or make sure it's installed on your system.
-2. Run the following commands, replacing EXAMPLE with your file.
-
-```sh
-ffmpeg -i EXAMPLE_showcase.mp4 -vf "fps=20,scale=-1:240:flags=lanczos,palettegen" -y palette.png
-
-ffmpeg -i EXAMPLE_showcase.mp4 -i palette.png -filter_complex "fps=20,scale=-1:240:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=5" -loop 0 EXAMPLE_showcase.gif
-```
--->
-
 ![On Stage Headshot - Josiah Plett](/images/On_Stage_Headshot.jpg)
 
 <p align="center">
 <a href="https://plett.dev/about">Entrepreneur</a> <strong>|</strong> 
-<a href="https://plett.fun/">Game Developer</a> <strong>|</strong> <a href="https://old.plett.dev/More/media-features">3x Guinness World Record Breaker</a> <strong>|</strong> 
+<a href="https://plett.fun/">Game Developer</a> <strong>|</strong>
+<a href="https://www.google.com/search?q=Josiah+Plett+world+records">3x Guinness World Record Breaker</a> <strong>|</strong> 
 <a href="https://plett.dev/photography">Photographer</a>
 </p>
 
@@ -76,12 +60,12 @@ Click on the GIFs to go to their websites.
 
 <details><summary> How to make those little <code>GIF</code>s </summary><br />
 
-Instructions exist so I don't keep forgetting. :-]
+Instructions so I don't keep forgetting. :-]
 
 1. Record the video.
    a. On Windows, search for "Snipping Tool," hit the video icon, and record. Don't forget to save afterwards.
-2. Use an online `ffmpeg` emulator like [this one](https://ffmpeg.wide.video/), or make sure it's installed on your system to...
-3. Run the following commands, replacing EXAMPLE with your file.
+3. Use an online `ffmpeg` emulator like [this one](https://ffmpeg.wide.video/), or make sure it's installed on your system to...
+4. Run the following commands, replacing EXAMPLE with your file.
 
 ```sh
 ffmpeg -i EXAMPLE_showcase.mp4 -vf "fps=20,scale=-1:240:flags=lanczos,palettegen" -y palette.png
