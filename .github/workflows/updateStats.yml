@@ -20,7 +20,7 @@ jobs:
 
       - run: pip install requests python-dotenv
 
-      - name: Update README
+      - name: Update stats.svg
         env:
           USER_NAME: ${{ github.repository_owner }}
           ACCESS_READ_TOKEN: ${{ secrets.ACCESS_READ_TOKEN }}
@@ -28,11 +28,11 @@ jobs:
 
       - name: Commit if changed
         run: |
+          git add -A
           if git diff --quiet; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
           git commit -m "bot-chore: Update stats"
           git push
