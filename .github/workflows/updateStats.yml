@@ -1,0 +1,38 @@
+name: Update README stats
+
+on:
+  schedule:
+    - cron: "30 12 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests python-dotenv
+
+      - name: Update README
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          ACCESS_READ_TOKEN: ${{ secrets.ACCESS_READ_TOKEN }}
+        run: python stats.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "bot-chore: Update stats"
+          git push
