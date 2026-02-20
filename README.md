@@ -13,6 +13,8 @@
 
 [plett.fun](https://plett.fun/) is where you can play 18 of my games.
 
+I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/).
+
 <!-- Inspired by:
 - https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/
 - https://github.com/Andrew6rant/Andrew6rant/blob/main/README.md
@@ -23,8 +25,6 @@
     <img src="stats.svg" style="width: 100%;" alt="Click to see the source">
   </a>
 </div>
-
-I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/).
 
 ---
 
