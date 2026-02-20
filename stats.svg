@@ -8,19 +8,16 @@
           box-sizing: border-box;
         }
 
-        :root {
-          --bg: #000;
+        .card {
           --fg: #F0F6FC; /* GitHub's light text colour */
           --accent: #45def3;
-          --faint: #5f5f76;
-        }
+          --faint: #717189;
 
-        .card {
           width: 100%;
           height: 100%;
           padding: 16px;
           border-radius: 8px;
-          background: var(--bg);
+          background: transparent;
           color: var(--fg);
           font-family: "Courier New", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
           font-weight: 600;
@@ -42,22 +39,30 @@
           color: var(--accent);
         }
 
-        .dots {
+        .faint {
           color: var(--faint);
         }
 
         .title {
           margin-bottom: 8px;
         }
+
+        @media (prefers-color-scheme: light) {
+          .card {
+            --fg: #0c0c0c;
+            --accent: #177af3;
+            --faint: #82829a;
+          }
+        }
       </style>
 
       <div class="card">
         <div class="lines">
-          <p class="title">GitHub Stats</p>
+          <p class="title">GitHub Stats <span class="faint">(updated weekly)</span></p>
           <!-- stats:start -->
-          <p>Total commits <span class="dots">....</span> <span class="accent">1,222</span></p>
-          <p>Repos <span class="dots">............</span> <span class="accent">67</span> owned (<span class="accent">69</span> contributed to)</p>
-          <p>PRs <span class="dots">..............</span> <span class="accent">121</span> created</p>
+          <p>Total commits <span class="faint">....</span> <span class="accent">1,222</span></p>
+          <p>Repos <span class="faint">............</span> <span class="accent">67</span> owned (<span class="accent">69</span> contributed to)</p>
+          <p>PRs <span class="faint">..............</span> <span class="accent">121</span> created</p>
           <!-- stats:end -->
         </div>
       </div>

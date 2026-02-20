@@ -42,7 +42,7 @@ Click on the GIFs to go to their websites.
 <a href="https://github.com/plettj/annts"><img src="https://github.com/plettj/annts/blob/main/display_files/annts_showcase.gif" alt="ANNTS Showcase Video" height="140px"/></a>
 <a href="https://devpost.com/software/split-second"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/split_second_v1_showcase.gif" alt="Split Second V1 Showcase Video" height="140px"/></a>
 <a href="https://analysisboard.surge.sh/"><img src="https://github.com/plettj/plettj/blob/main/showcase_videos/chess_analysis_showcase.gif" alt="Chess Analysis Board Showcase Video" height="140px"/></a>
-</p>
+</p>v
 
 ---
 
