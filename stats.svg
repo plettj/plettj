@@ -10,9 +10,9 @@
 
         :root {
           --bg: #000;
-          --fg: #F0F6FC; // GitHub's light text colour
+          --fg: #F0F6FC; /* GitHub's light text colour */
           --accent: #45def3;
-          --faint: #5f5f76
+          --faint: #5f5f76;
         }
 
         .card {
