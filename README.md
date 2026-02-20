@@ -21,8 +21,8 @@ I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO a
 -->
 
 <div style="width: 100%;">
-  <a href="https://github.com/plettj/plettj/blob/main/stats.svg">
-    <img src="stats.svg" style="width: 100%;" alt="Click to see the source">
+  <a href="https://github.com/plettj/plettj/blob/main">
+    <img src="stats.svg" style="width: 100%;" alt="Github Stats automatically updated weekly. Click to see source code.">
   </a>
 </div>
 

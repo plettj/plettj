@@ -30,7 +30,7 @@
           width: 100%;
           display: flex;
           flex-direction: column;
-          gap: 10px;
+          gap: 8px;
           line-height: 1.25;
           font-size: 16px;
           white-space: pre-wrap;
@@ -45,7 +45,7 @@
         }
 
         .title {
-          margin-bottom: 8px;
+          margin-bottom: 14px;
         }
 
         @media (prefers-color-scheme: light) {
@@ -59,7 +59,7 @@
 
       <div class="card">
         <div class="lines">
-          <p class="title">GitHub Stats <span class="faint">(updated weekly)</span></p>
+          <p class="title">GitHub Stats <span class="faint">(automatically updated weekly)</span></p>
           <!-- stats:start -->
           <p>Total commits <span class="faint">....</span> <span class="accent">1,222</span></p>
           <p>Repos <span class="faint">............</span> <span class="accent">67</span> owned (<span class="accent">69</span> contributed to)</p>
