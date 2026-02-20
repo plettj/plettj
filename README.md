@@ -13,27 +13,15 @@
 
 [plett.fun](https://plett.fun/) is where you can play 18 of my games.
 
-<div style="
-  width: 100%;
-  background-color: #141436;
-  color: #fff;
-  padding: 16px;
-  border-radius: 8px;
-  font-family: 'Courier New', monospace;
-  font-weight: 600;
-  box-sizing: border-box;
-">
+<!-- Inspired by:
+- https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/
+- https://github.com/Andrew6rant/Andrew6rant/blob/main/README.md
+-->
 
-<!-- stats:start -->
-
-Total commits: <span style="color: #45def3;">#,###</span>
-
-Repos: <span style="color: #45def3;">##</span> owned (<span style="color: #45def3;">###</span> contributed to)
-
-PRs: <span style="color: #45def3;">###</span> created, <span style="color: #45def3;">###</span> reviewed
-
-<!-- stats:end -->
-
+<div style="width: 100%;">
+  <a href="https://github.com/plettj/plettj/blob/main/stats.svg">
+    <img src="stats.svg" style="width: 100%;" alt="Click to see the source">
+  </a>
 </div>
 
 I'm currently full-stack at [Maxima AI](https://www.maxima.ai/) and former CTO at [Portage Labs](https://www.portagelabs.io/).
@@ -64,8 +52,8 @@ Instructions so I don't keep forgetting. :-]
 
 1. Record the video.
    a. On Windows, search for "Snipping Tool," hit the video icon, and record. Don't forget to save afterwards.
-3. Use an online `ffmpeg` emulator like [this one](https://ffmpeg.wide.video/), or make sure it's installed on your system to...
-4. Run the following commands, replacing EXAMPLE with your file.
+2. Use an online `ffmpeg` emulator like [this one](https://ffmpeg.wide.video/), or make sure it's installed on your system to...
+3. Run the following commands, replacing EXAMPLE with your file.
 
 ```sh
 ffmpeg -i EXAMPLE_showcase.mp4 -vf "fps=20,scale=-1:240:flags=lanczos,palettegen" -y palette.png

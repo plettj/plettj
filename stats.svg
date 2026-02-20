@@ -1,0 +1,56 @@
+<svg fill="none" viewBox="0 0 900 170" width="900" height="170" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        :root {
+          --bg: #141436;
+          --fg: #ffffff;
+          --accent: #45def3;
+        }
+
+        .card {
+          width: 100%;
+          height: 100%;
+          padding: 16px;
+          border-radius: 8px;
+          background: var(--bg);
+          color: var(--fg);
+          font-family: "Courier New", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+        }
+
+        .lines {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          line-height: 1.25;
+          font-size: 20px;
+          white-space: pre-wrap;
+        }
+
+        .accent {
+          color: var(--accent);
+        }
+      </style>
+
+      <div class="card">
+        <!-- stats:start -->
+        <div class="lines">
+          <div>Total commits: <span class="accent">#,###</span></div>
+          <div>Repos: <span class="accent">##</span> owned (<span class="accent">###</span> contributed to)</div>
+          <div>PRs: <span class="accent">###</span> created, <span class="accent">###</span> reviewed</div>
+        </div>
+        <!-- stats:end -->
+      </div>
+    </div>
+  </foreignObject>
+</svg>
