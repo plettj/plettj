@@ -107,9 +107,9 @@ def render_block(
 ) -> str:
     return "\n".join(
         [
-            f'          <p>Total commits <span class="faint">....</span> <span class="accent">{commits:,}</span></p>',
-            f'          <p>Repos <span class="faint">............</span> <span class="accent">{owned_repos:,}</span> owned (<span class="accent">{owned_repos + contributed_repos:,}</span> contributed to)</p>',
-            f'          <p>PRs <span class="faint">..............</span> <span class="accent">{prs_created:,}</span> created</p>',
+            f'          <p>Commits <span class="faint">.........</span> <span class="accent">{commits:,}</span> <span class="faint">(excluding paid work)</span></p>',
+            f'          <p>Repos <span class="faint">...........</span> <span class="accent">{owned_repos:,}</span> owned (<span class="accent">{owned_repos + contributed_repos:,}</span> contributed to)</p>',
+            f'          <p>PRs <span class="faint">.............</span> <span class="accent">{prs_created:,}</span> created</p>',
         ]
     )
 
