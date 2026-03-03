@@ -2,7 +2,7 @@ name: Update README stats
 
 on:
   schedule:
-    - cron: "5 5 3 3 *"
+    - cron: "*/5 * * * *"
   #    - cron: "30 12 * * 0"
   workflow_dispatch:
 
