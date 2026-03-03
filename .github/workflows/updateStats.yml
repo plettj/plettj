@@ -2,7 +2,8 @@ name: Update README stats
 
 on:
   schedule:
-    - cron: "30 12 * * 0"
+    - cron: "3 5 3 3 *"
+  #    - cron: "30 12 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -11,6 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment: commit_updates
     steps:
       - uses: actions/checkout@v4
 
