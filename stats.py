@@ -70,12 +70,13 @@ def commit_total_by_year(created_at_iso: str) -> int:
     now = dt.datetime.now(dt.timezone.utc)
 
     q = """
-    query($login: String!, $from: DateTime!, $to: DateTime!) {
-      user(login: $login) {
-        contributionsCollection(from: $from, to: $to) {
-          totalCommitContributions
+    query($from: DateTime!, $to: DateTime!) {
+        viewer {
+            contributionsCollection(from: $from, to: $to) {
+                totalCommitContributions
+                restrictedContributionsCount
+            }
         }
-      }
     }
     """
 
@@ -93,8 +94,14 @@ def commit_total_by_year(created_at_iso: str) -> int:
         if end > now:
             end = now
 
-        d = gql(q, {"login": USER, "from": start.isoformat(), "to": end.isoformat()})
-        total += int(d["user"]["contributionsCollection"]["totalCommitContributions"])
+        d = gql(q, {"from": start.isoformat(), "to": end.isoformat()})
+        cc = d["viewer"]["contributionsCollection"]
+        # Total and Restricted commit contributions are mutually exclusive by design.
+        # Restricted = Private, in this case.
+        total += int(cc["restrictedContributionsCount"]) + int(
+            cc["totalCommitContributions"]
+        )
+    print("Commits: ", total)
 
     return total
 
